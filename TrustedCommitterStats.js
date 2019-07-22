@@ -3,7 +3,6 @@ const moment = require('moment');
 
 const RepoStats = require('./RepoStats');
 const OrgStats = require('./OrgStats');
-const projects = require('./trustedCommitterProjects');
 
 class TrustedCommitterStats {
     constructor(repo) {
@@ -54,7 +53,4 @@ class TrustedCommitterStats {
     }
 }
 
-
-const tc = new TrustedCommitterStats('lib-app-core-nodejs')
-// tc.projectContributors()
-tc.projectContributorsOverTime(50)
+module.exports = TrustedCommitterStats;

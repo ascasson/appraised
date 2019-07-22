@@ -1,7 +1,6 @@
 require('dotenv').config();
 const Octokit = require('@octokit/rest');
 
-console.log(process.env.GH_KEY)
 class GitHubStatsInit {
     constructor() {
         this.gitHubStats = new Octokit({
