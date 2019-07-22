@@ -15,3 +15,7 @@ Clone the repo, then ```npm install```.
 In your root directory `touch .env` to create your configuration file. Include one line for your GitHub access token `GH_KEY='mysecretkeyhere'`.
 
 Test it by running `node index.js`.
+
+
+## Roadmap - TBD
+This is a fresh project and will take a bit of time to identify some clearer needs. There will be a roadmap in the future. If you have ideas, comments, or issues, please submit a GitHub issue and tag @ascasson.
