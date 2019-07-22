@@ -1,7 +1,7 @@
 {
   "name": "appraised",
   "version": "0.0.1",
-  "description": "Appraise projects and contributions across teams",
+  "description": "Appraise project collaboration within and across teams",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
